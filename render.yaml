@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-django-app
+    name: parhamonline-app
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
