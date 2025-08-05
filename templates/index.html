@@ -1,190 +1,362 @@
 {% load static %}
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Parham Mohtasham | Python specialist and Web designer</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
-        <link href="static/css/bootstrap.min.css" rel="stylesheet">
-        <link href="static/css/bootstrap-icons.css" rel="stylesheet">
-        <link href="static/css/tooplate-kool-form-pack.css" rel="stylesheet">
-        <link href="static/css/styles.css" rel="stylesheet"> <!-- اضافه کردن فایل CSS -->
-    </head>
-    
-    <body>
-        <header class="site-header">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-lg-12 col-12 d-flex align-items-center">
-                        <a class="site-header-text d-flex justify-content-center align-items-center me-auto" href="">
-                            <img src="static/images/logo.png" alt="Logo" width="60" height="60">
-                            <span>Programmer and Development</span>
-                        </a>
-                        <ul class="social-icon d-flex justify-content-center align-items-center mx-auto">
-                            <span class="text-white me-4 d-none d-lg-block">Follow me on social media</span>
-                            <li class="social-icon-item">
-                                <a href="https://github.com/parhammohtasham" class="social-icon-link bi-github"></a>
-                            </li>
-                            <li class="social-icon-item">
-                                <a href="https://www.linkedin.com/in/parham-mohtasham-6b2879318/" class="social-icon-link bi-linkedin"></a>
-                            </li>
-                            <li class="social-icon-item">
-                                <a href="https://www.instagram.com/_i.p.m_/" class="social-icon-link bi-instagram"></a>
-                            </li>
-                        </ul>
-                        <div>
-                            <a href="#" class="custom-btn custom-border-btn btn" data-bs-toggle="modal" data-bs-target="#contactMeModal">Send email to me
-                                <i class="bi-arrow-right ms-2"></i>
-                            </a>
-                        </div>
-                        <a class="bi-list offcanvas-icon" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu"></a>
-                    </div>
-                </div>
-            </div>
-        </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parham Mohtasham | Python specialist and Web designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="static/css/bootstrap-icons.css" rel="stylesheet" />
+    <link href="static/css/tooplate-kool-form-pack.css" rel="stylesheet" />
+    <link href="static/css/styles.css" rel="stylesheet" /> <!-- اضافه کردن فایل CSS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/fav-icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/fav-icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/fav-icon/favicon-16x16.png" />
+    <link rel="manifest" href="../static/fav-icon/site.webmanifest" />
+  </head>
 
-        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">                
-            <div class="offcanvas-header">                    
-                <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-12 col-12 d-flex align-items-center">
+            <a
+              class="site-header-text d-flex justify-content-center align-items-center me-auto"
+              href=""
+            >
+              <img
+                src="static/images/logo.png"
+                alt="Logo"
+                width="60"
+                height="60"
+              />
+              <span>Programmer and Development</span>
+            </a>
+            <ul
+              class="social-icon d-flex justify-content-center align-items-center mx-auto"
+            >
+              <span class="text-white me-4 d-none d-lg-block"
+                >Follow me on social media</span
+              >
+              <li class="social-icon-item">
+                <a
+                  href="https://github.com/parhammohtasham"
+                  class="social-icon-link bi-github"
+                ></a>
+              </li>
+              <li class="social-icon-item">
+                <a
+                  href="https://www.linkedin.com/in/parham-mohtasham-6b2879318/"
+                  class="social-icon-link bi-linkedin"
+                ></a>
+              </li>
+              <li class="social-icon-item">
+                <a
+                  href="https://www.instagram.com/_i.p.m_/"
+                  class="social-icon-link bi-instagram"
+                ></a>
+              </li>
+            </ul>
+            <div>
+              <a
+                href="#"
+                class="custom-btn custom-border-btn btn"
+                data-bs-toggle="modal"
+                data-bs-target="#contactMeModal"
+                >Send email to me
+                <i class="bi-arrow-right ms-2"></i>
+              </a>
             </div>
-            <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#aboutMeModal">About me</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#contactMeModal">Contact me</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#resumeModal">My resume</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <a
+              class="bi-list offcanvas-icon"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasMenu"
+              role="button"
+              aria-controls="offcanvasMenu"
+            ></a>
+          </div>
         </div>
+      </div>
+    </header>
 
+    <div
+      class="offcanvas offcanvas-end"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasMenu"
+      aria-labelledby="offcanvasMenuLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close ms-auto"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div
+        class="offcanvas-body d-flex flex-column justify-content-center align-items-center"
+      >
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#aboutMeModal"
+                >About me</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#contactMeModal"
+                >Contact me</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#resumeModal"
+                >My resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
-        <!-- Modal برای "درباره من" -->
-        <div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="aboutMeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="aboutMeModalLabel">About Me</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="static/images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-3" />
-                        <h3>Hi, I'm Parham Mohtasham</h3>
-                        <p>
-                            I am a passionate Python developer and web designer with a strong background in creating dynamic and responsive web applications. My goal is to build user-friendly and efficient solutions that meet the needs of clients and users alike.
-                        </p>
-                        <p>
-                            With experience in various programming languages and frameworks, I am always eager to learn new technologies and improve my skills. I enjoy tackling challenging problems and finding innovative solutions.
-                        </p>
-                        <h4>Skills:</h4>
-                        <ul>
-                            <li>Python</li>
-                            <li>Django & Flask</li>
-                            <li>HTML, CSS</li>
-                            <li>Wordpress</li>
-                            <li>Git & GitHub</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <!-- Modal برای "درباره من" -->
+    <div
+      class="modal fade"
+      id="aboutMeModal"
+      tabindex="-1"
+      aria-labelledby="aboutMeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="aboutMeModalLabel">About Me</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="static/images/profile.jpg"
+              alt="Profile Picture"
+              class="img-fluid rounded-circle mb-3"
+            />
+            <h3>Hi, I'm Parham Mohtasham</h3>
+            <p>
+              I am a passionate Python developer and web designer with a strong
+              background in creating dynamic and responsive web applications. My
+              goal is to build user-friendly and efficient solutions that meet
+              the needs of clients and users alike.
+            </p>
+            <p>
+              With experience in various programming languages and frameworks, I
+              am always eager to learn new technologies and improve my skills. I
+              enjoy tackling challenging problems and finding innovative
+              solutions.
+            </p>
+            <h4>Skills:</h4>
+            <ul>
+              <li>Python</li>
+              <li>Django & Flask</li>
+              <li>HTML, CSS</li>
+              <li>Wordpress</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <!-- Modal برای "Contact Me" -->
-        <div class="modal fade" id="contactMeModal" tabindex="-1" aria-labelledby="contactMeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="contactMeModalLabel">Contact Me</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="{% url 'home' %}" method="post" class="custom-form mt-lg-4 mt-2" role="form">
-                            {% csrf_token %}
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Your Name</label>
-                                <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Your Email</label>
-                                <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Your Message</label>
-                                <textarea class="form-control" name="message" rows="3" placeholder="Write your message here" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+    <!-- Modal برای "Contact Me" -->
+    <div
+      class="modal fade"
+      id="contactMeModal"
+      tabindex="-1"
+      aria-labelledby="contactMeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactMeModalLabel">Contact Me</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form
+              action="{% url 'home' %}"
+              method="post"
+              class="custom-form mt-lg-4 mt-2"
+              role="form"
+            >
+              {% csrf_token %}
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="3"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <!-- Modal برای پیام موفقیت -->
-        <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="successModalLabel">Success</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        Your message has been sent successfully!
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+    <!-- Modal برای پیام موفقیت -->
+    <div
+      class="modal fade"
+      id="successModal"
+      tabindex="-1"
+      aria-labelledby="successModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="successModalLabel">Success</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Your message has been sent successfully!</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
         </div>
-                <!-- Modal برای "My Resume" -->
-        <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="resumeModalLabel">My Resume</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe src="{% static 'resume.pdf' %}" width="100%" height="400px"></iframe>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="{% static 'resume.pdf' %}" class="btn btn-secondary" download>Download Resume</a>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+    <!-- Modal برای "My Resume" -->
+    <div
+      class="modal fade"
+      id="resumeModal"
+      tabindex="-1"
+      aria-labelledby="resumeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resumeModalLabel">My Resume</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              src="{% static 'resume.pdf' %}"
+              width="100%"
+              height="400px"
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="{% static 'resume.pdf' %}"
+              class="btn btn-secondary"
+              download
+              >Download Resume</a
+            >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
         </div>
+      </div>
+    </div>
 
+    <div class="video-wrap">
+      <video
+        autoplay
+        loop
+        muted
+        class="custom-video"
+        poster="static/images/video-poster.jpg"
+      >
+        <source src="static/videos/video3.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay-text">
+        <h1>Parham Mohtasham</h1>
+        <p class="lead">Passionate Python specialist and Web developer</p>
+      </div>
+    </div>
 
-        <div class="video-wrap">
-            <video autoplay loop muted class="custom-video" poster="static/images/video-poster.jpg">
-                <source src="static/videos/video3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="overlay-text">
-                <h1>Parham Mohtasham</h1>
-                <p class="lead">Passionate Python specialist and Web developer</p>
-            </div>
-        </div>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.bundle.min.js"></script>
 
-        <script src="static/js/jquery.min.js"></script>
-        <script src="static/js/bootstrap.bundle.min.js"></script>
-
-        {% if success_message %}
-        <script>
-            $(document).ready(function() {
-                $('#successModal').modal('show');
-            });
-        </script>
-        {% endif %}
-    </body>
+    {% if success_message %}
+    <script>
+      $(document).ready(function () {
+        $("#successModal").modal("show");
+      });
+    </script>
+    {% endif %}
+  </body>
 </html>
