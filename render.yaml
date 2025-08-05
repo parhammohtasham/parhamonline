@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: parhamonline-app
+    name: parhamonline-pages
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
