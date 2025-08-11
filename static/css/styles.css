@@ -1,3 +1,100 @@
+.about-me-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    /* رنگ پس‌زمینه روشن */
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    /* رنگ عنوان */
+}
+
+.about-me-section .row {
+    display: flex;
+    align-items: center;
+}
+
+.about-me-section img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #007bff;
+    /* رنگ حاشیه */
+    margin-bottom: 20px;
+}
+
+.about-me-section h3 {
+    font-size: 2rem;
+    color: #007bff;
+    /* رنگ عنوان */
+}
+
+.about-me-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    /* رنگ متن */
+}
+
+.about-me-section h4 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+    /* رنگ عنوان */
+}
+
+.about-me-section ul {
+    list-style-type: none;
+    /* حذف نقاط لیست */
+    padding: 0;
+}
+
+.about-me-section ul li {
+    background: #e9ecef;
+    /* رنگ پس‌زمینه برای هر آیتم */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    /* گوشه‌های گرد */
+}
+
+.about-me-section .btn {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+    /* متن را در وسط قرار می‌دهد */
+}
+
+.lead {
+    font-size: 1.5rem;
+    /* اندازه فونت برای شعار */
+    color: #555;
+    /* رنگ متن */
+}
+
+.video-wrap {
+    position: relative;
+    /* برای قرار دادن متن در بالای ویدیو */
+    height: 100vh;
+    /* ارتفاع ویدیو به اندازه کل صفحه */
+    display: flex;
+    /* استفاده از Flexbox */
+    justify-content: center;
+    /* مرکز افقی */
+    align-items: center;
+    /* مرکز عمودی */
+}
+
+.custom-video {
+    width: 100%;
+    /* یا هر اندازه‌ای که می‌خواهید */
+    height: auto;
+    /* حفظ نسبت ابعاد */
+}
 
 .overlay-text {
     position: absolute;
@@ -14,6 +111,12 @@
     /* فاصله داخلی */
     border-radius: 10px;
     /* گوشه‌های گرد */
+    top: 50%;
+    /* بالای ویدیو */
+    left: 50%;
+    /* چپ ویدیو */
+    transform: translate(-50%, -50%);
+    /* مرکز کردن متن در ویدیو */
 }
 
 .overlay-text h1 {

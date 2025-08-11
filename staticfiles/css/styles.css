@@ -1,101 +1,36 @@
 
-.about-me-section {
-    padding: 60px 0;
-    background-color: #f8f9fa; /* رنگ پس‌زمینه روشن */
-}
-
-.section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    color: #333; /* رنگ عنوان */
-}
-
-.about-me-section .row {
-    display: flex;
-    align-items: center;
-}
-
-.about-me-section img {
-    max-width: 100%;
-    height: auto;
-    border: 5px solid #007bff; /* رنگ حاشیه */
-    margin-bottom: 20px;
-}
-
-.about-me-section h3 {
-    font-size: 2rem;
-    color: #007bff; /* رنگ عنوان */
-}
-
-.about-me-section p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #555; /* رنگ متن */
-}
-
-.about-me-section h4 {
-    font-size: 1.5rem;
-    margin-top: 20px;
-    color: #333; /* رنگ عنوان */
-}
-
-.about-me-section ul {
-    list-style-type: none; /* حذف نقاط لیست */
-    padding: 0;
-}
-
-.about-me-section ul li {
-    background: #e9ecef; /* رنگ پس‌زمینه برای هر آیتم */
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px; /* گوشه‌های گرد */
-}
-
-.about-me-section .btn {
-    margin-top: 20px;
-}
-
-.text-center {
-    text-align: center; /* متن را در وسط قرار می‌دهد */
-}
-
-.lead {
-    font-size: 1.5rem; /* اندازه فونت برای شعار */
-    color: #555; /* رنگ متن */
-}
-.video-wrap {
-    position: relative; /* برای قرار دادن متن در بالای ویدیو */
-    height: 100vh; /* ارتفاع ویدیو به اندازه کل صفحه */
-    display: flex; /* استفاده از Flexbox */
-    justify-content: center; /* مرکز افقی */
-    align-items: center; /* مرکز عمودی */
-}
-
-.custom-video {
-    width: 100%; /* یا هر اندازه‌ای که می‌خواهید */
-    height: auto; /* حفظ نسبت ابعاد */
-}
-
 .overlay-text {
-    position: absolute; /* قرار دادن متن در بالای ویدیو */
-    color: white; /* رنگ متن */
-    text-align: center; /* مرکز کردن متن */
-    z-index: 10; /* اطمینان از اینکه متن بالای ویدیو قرار گیرد */
-    background-color: rgba(0, 0, 0, 0.5); /* پس‌زمینه نیمه‌شفاف */
-    padding: 20px; /* فاصله داخلی */
-    border-radius: 10px; /* گوشه‌های گرد */
+    position: absolute;
+    /* قرار دادن متن در بالای ویدیو */
+    color: white;
+    /* رنگ متن */
+    text-align: center;
+    /* مرکز کردن متن */
+    z-index: 10;
+    /* اطمینان از اینکه متن بالای ویدیو قرار گیرد */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* پس‌زمینه نیمه‌شفاف */
+    padding: 20px;
+    /* فاصله داخلی */
+    border-radius: 10px;
+    /* گوشه‌های گرد */
 }
 
 .overlay-text h1 {
-    font-size: 3rem; /* اندازه بزرگتر برای عنوان */
-    color: rgb(255, 123, 0); /* رنگ نارنجی */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* سایه برای افزایش وضوح */
+    font-size: 3rem;
+    /* اندازه بزرگتر برای عنوان */
+    color: rgb(255, 123, 0);
+    /* رنگ نارنجی */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* سایه برای افزایش وضوح */
 }
 
 .overlay-text p {
-    font-size: 1.5rem; /* اندازه بزرگتر برای شعار */
-    color: rgb(238, 167, 102); /* رنگ نارنجی */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* سایه برای افزایش وضوح */
+    font-size: 1.5rem;
+    /* اندازه بزرگتر برای شعار */
+    color: rgb(238, 167, 102);
+    /* رنگ نارنجی */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    /* سایه برای افزایش وضوح */
 }
 
